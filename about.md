@@ -3,6 +3,11 @@ layout: page
 title: About
 permalink: /about/
 ---
+This is **Wilbur Zhai** github blog. The name **翟佳羽 (ZHAI JIAYU)** in Chinese is useful in some cases.
+
+I am studying in School of Informatics, University of Edinburgh for Master of Science (MSc) Degree in Computer Science starting from September 2017.
+
+<img src="http://wilburzhai.site/wp-content/uploads/2016/12/logo.png" width="200">
 
 My Interesting Area in Computer Science is Natural Language Processing, Neural Machine Translation, Machine Learning Application, and Internet of Things Application.
 
