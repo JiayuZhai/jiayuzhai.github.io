@@ -5,9 +5,9 @@ permalink: /about/
 ---
 This is **Wilbur Zhai** github blog. The name **翟佳羽 (ZHAI JIAYU)** in Chinese is useful in some cases.
 
-I was studying in [School of Informatics](http://www.ed.ac.uk/informatics), [University of Edinburgh](http://www.ed.ac.uk/) for Master of Science (MSc) Degree in Computer Science starting from Sep 2017 to Sep 2018.
+I was studying in [School of Informatics](https://www.ed.ac.uk/informatics), [University of Edinburgh](https://www.ed.ac.uk/) for Master of Science (MSc) Degree in Computer Science starting from Sep 2017 to Sep 2018.
 
-<img src="https://www.ed.ac.uk/sites/all/themes/uoe/assets/logo.png" width="200"/>
+<img src="https://raw.githubusercontent.com/jiayuzhai/jiayuzhai.github.io/master/images/logo-768x184.jpg" width="200"/>
 
 My Interesting Area in Computer Science is Natural Language Processing, Neural Machine Translation, Machine Learning Application, and Internet of Things Application.
 
