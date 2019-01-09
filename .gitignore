@@ -9,3 +9,4 @@ Gemfile.lock
 node_modules
 package.json
 commit.sh
+_posts/create.sh
