@@ -62,6 +62,11 @@ git rebase -i HEAD~n #n is the last n commits to compress
 #保存退出
 ```
 
+同步master
+```bash
+git pull origin master
+```
+
 解决冲突
 ```bash
 git mergetool
