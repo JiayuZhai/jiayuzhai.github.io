@@ -13,6 +13,11 @@ grep '[symbols]' [file]
 ```bash
 wc -l
 ```
+分割统计
+```bash
+awk -F "," '{print $1}' file.txt #用逗号分隔，第二个
+awk -F "," '{ print $4 "\t" $5}' file.txt #用逗号分隔，第四个\t第五个
+```
 
 ## Pandas tricks
 
