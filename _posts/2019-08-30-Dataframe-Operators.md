@@ -5,40 +5,11 @@ title: Dataframe Operators
 
 ## Dataframe operator cheat sheet for pd.dataframe and pyspark.dataframe
 
-<table>
-   <tr>
-      <td>functions</td>
-      <td>pd.dataframe</td>
-      <td>pyspark.dataframe</td>
-   </tr>
-   <tr>
-      <td>sort</td>
-      <td>df.sort_values("col")</td>
-      <td>pythondf.sort(desc(col))</td>
-   </tr>
-   <tr>
-      <td>tocsv</td>
-      <td>df.to_csv()</td>
-      <td>df.repartition(1).write.csv()</td>
-   </tr>
-   <tr>
-      <td>tojson</td>
-      <td>df.to_json()</td>
-      <td>df.repartition(1).write.json()</td>
-   </tr>
-   <tr>
-      <td>column_rename</td>
-      <td>df.rename('old','new')</td>
-      <td>df.withColumnRenamed('old','new')</td>
-   </tr>
-   <tr>
-      <td>readcsv</td>
-      <td>spark.read.csv('file',sep=',')</td>
-      <td>pd.read_csv('file',sep=',')</td>
-   </tr>
-   <tr>
-      <td>readjson</td>
-      <td>spark.read.json('file',lines=True)</td>
-      <td>pd.read_json('file',lines=True)</td>
-   </tr>
-</table>
+|functions  |  pd.dataframe | pyspark.dataframe  |
+|:---:|---|---|
+|sort  | ```df.sort_values("col")```  | ```df.sort(desc(col))```  | 
+|tocsv  | ```df.to_csv()```  | ```df.repartition(1).write.csv()```  |
+|tojson  | ```df.to_json()```  | ```df.repartition(1).write.json()```  |
+|column_rename|```df.rename('old','new')```| ```df.withColumnRenamed('old','new')```|
+|readcsv|```spark.read.csv('file',sep=',')```|```pd.read_csv('file',sep=',')```|
+|readjson|```spark.read.json('file',lines=True)```|```pd.read_json('file',lines=True)```|
