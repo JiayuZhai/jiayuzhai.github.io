@@ -5,7 +5,7 @@ title: Dataframe Operators
 
 ## Dataframe operator cheat sheet for pd.dataframe and pyspark.dataframe
 
-#
+
 |functions  |  pd.dataframe | pyspark.dataframe  |
 |---|---|---|
 |sort  | ```df.sort_values("col")```  | ```pythondf.sort(desc(col))```  | 
