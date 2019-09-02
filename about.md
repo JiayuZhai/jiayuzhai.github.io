@@ -5,6 +5,10 @@ permalink: /about/
 ---
 This is **Wilbur Zhai** github blog. The name **翟佳羽 (ZHAI JIAYU)** in Chinese is useful in some cases.
 
+I joined [DataVisor China](https://www.datavisor.cn/) in April 2019 as an algorithm engineer.
+
+<img src="https://www.datavisor.cn/wp-content/uploads/2019/07/dv-logo-sm.png" width="200"/>
+
 I got the Master of Science (MSc) Degree in Computer Science at [School of Informatics](https://www.ed.ac.uk/informatics), [University of Edinburgh](https://www.ed.ac.uk/) in November 2018.
 
 <img src="https://www.ed.ac.uk/sites/all/themes/uoe/assets/logo.png" width="200"/>
