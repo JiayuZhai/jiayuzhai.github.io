@@ -5,10 +5,9 @@ title: Dataframe Operators
 
 ## Dataframe operator cheat sheet for pd.dataframe and pyspark.dataframe
 
-#
 |functions  |  pd.dataframe | pyspark.dataframe  |
-|---|---|---|
-|sort  | ```df.sort_values("col")```  | ```pythondf.sort(desc(col))```  | 
+|:---:|---|---|
+|sort  | ```df.sort_values("col")```  | ```df.sort(desc(col))```  | 
 |tocsv  | ```df.to_csv()```  | ```df.repartition(1).write.csv()```  |
 |tojson  | ```df.to_json()```  | ```df.repartition(1).write.json()```  |
 |column_rename|```df.rename('old','new')```| ```df.withColumnRenamed('old','new')```|
