@@ -31,11 +31,11 @@ nohup python test.py > log.txt & #挂起一个python job，并将stdout仅输出
 rawdir = '/path/to/dir'
 for root,dirs,files in os.walk(rawdir):
     for f in files:
-		source_file_path = os.path.join(root,f)
-		target_file_path = source_file_path.replace('source','target')
-		with open(source_file_path,'r') as fin:
-			with open(target_file_path,'w') as fout:
-				fout.write(func(fin))
+        source_file_path = os.path.join(root,f)
+        target_file_path = source_file_path.replace('source','target')
+        with open(source_file_path,'r') as fin:
+            with open(target_file_path,'w') as fout:
+                fout.write(func(fin))
 ```
 
 Hash脱敏
