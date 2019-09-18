@@ -19,6 +19,46 @@ awk -F "," '{print $1}' file.txt #用逗号分隔，第二个
 awk -F "," '{ print $4 "\t" $5}' file.txt #用逗号分隔，第四个\t第五个
 ```
 
+挂起job
+```bash
+nohup python test.py > log.txt & #挂起一个python job，并将stdout仅输出到log.txt中
+```
+
+## Python tricks
+
+遍历目录下全部文件，处理后并重命名
+```python
+rawdir = '/path/to/dir'
+for root,dirs,files in os.walk(rawdir):
+    for f in files:
+		source_file_path = os.path.join(root,f)
+		target_file_path = source_file_path.replace('source','target')
+		with open(source_file_path,'r') as fin:
+			with open(target_file_path,'w') as fout:
+				fout.write(func(fin))
+```
+
+Hash脱敏
+```python
+#default hash
+hash(obj) # 输出为long，可以用hex()转换为十六进制str
+#md5 hash
+import hashlib
+hashlib.md5(obj).hexdigest() #输出为str
+```
+
+URL decode
+```python
+#python2
+import urllib
+name = 'abcd' # make sure name is a str, not a unicode
+name = urllib.unquote(name)
+#python3
+import urllib.parse
+name = 'abcd'
+name = urllib.parse.unquote(name)
+```
+
 ## Pandas tricks
 
 类别统计个数
