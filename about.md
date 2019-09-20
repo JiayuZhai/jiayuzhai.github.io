@@ -5,16 +5,19 @@ permalink: /about/
 ---
 This is **Wilbur Zhai** github blog. The name **翟佳羽 (ZHAI JIAYU)** in Chinese is useful in some cases.
 
+### Work
 I joined [DataVisor China](https://www.datavisor.cn/) in April 2019 as an algorithm engineer.
 
 <img src="https://www.datavisor.cn/wp-content/uploads/2019/07/dv-logo-sm.png" width="200"/>
 
+### Education
 I got the Master of Science (MSc) Degree in Computer Science at [School of Informatics](https://www.ed.ac.uk/informatics), [University of Edinburgh](https://www.ed.ac.uk/) in November 2018.
 
 <img src="https://www.ed.ac.uk/sites/all/themes/uoe/assets/logo.png" width="200"/>
 
 I got the Bachelor of Science (MSc) Degree in Internet of Things Engineering at [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/) in November 2018.
 
+### Interests
 My Interesting Area in Computer Science is Natural Language Processing, Neural Machine Translation, Machine Learning Application, and Internet of Things Application.
 
 I was doing my final project with the title of Generative Models for Generating Synthetic Social Data in the MSc stage from 2018 Spring to 2018 Summer. I was doing my final project with the title of Spark based Large Scale Social Network Directed Community Detection Algorithm in Distributed System in the undergraduate stage from 2016 Winter to 2017 Summer.
