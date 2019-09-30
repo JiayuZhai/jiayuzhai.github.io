@@ -24,6 +24,12 @@ awk -F "," '{ print $4 "\t" $5}' file.txt #用逗号分隔，第四个\t第五�
 nohup python test.py > log.txt & #挂起一个python job，并将stdout仅输出到log.txt中
 ```
 
+分割文件
+```bash
+split -l 10000 file.txt #按行数分割，每10K行一个文件
+split -b 500M file.txt #按size分割，每500M一个文件
+```
+
 ## Python tricks
 
 遍历目录下全部文件，处理后并重命名
