@@ -19,5 +19,5 @@ title: Dataframe Operators
 |not in |```df[df['col'].isin([a,b,c])]```|```from pyspark.sql.function import col; df.filter(~col('bar').isin(['a','b']))```|
 |new col|```df['new_col']= 'abc'```|```from pyspark.sql.function import lit; df.withColumn('new_col',lit('abc'))```|
 |multi select|```df[['a','b']] ```|```df[['a','b']]```|
-|distinct count of a column|df['col'].nunique()|df.select('col').distinct()|
+|distinct count of a column|`df['col'].nunique()`|`df.select('col').distinct()`|
 ||||
