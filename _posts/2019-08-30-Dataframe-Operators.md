@@ -24,4 +24,4 @@ title: Dataframe Operators
 |set ops-intersect||`df1.select("sentence").intersect(df2.select("sentence"))`|
 |set ops-union||`df1.select("sentence").union(df2.select("sentence")).distinct()`|
 |str_bool to int|`(df['col'] == 'TRUE').astype('i2')`|`(df['col'] == 'TRUE').astype(int)`|
-|time difference||`df.withColumn(all,"diff",(datediff(all.timestamp2,all.timestamp1)*24*60*60 + (hour(all.timestamp2)- hour(all.timestamp1))*60*60 + (minute(all.timestamp2) - minute(all.timestamp1))*60 + (second(all.timestamp2) - second(all.timestamp1))) )`|
+|time difference||`spark.sql('SELECT datediff(all.timestamp2,all.timestamp1)*24*60*60 + (hour(all.timestamp2)- hour(all.timestamp1))*60*60 + (minute(all.timestamp2) - minute(all.timestamp1))*60 + (second(all.timestamp2) - second(all.timestamp1)) as tol_time_diff from df')`|
