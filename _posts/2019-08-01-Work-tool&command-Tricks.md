@@ -8,6 +8,7 @@ title: Work tool and command tricks
 查找
 ```bash
 grep '[symbols]' [file]
+grep -h '[symbols]' [files] #多文件时不输出filename
 ```
 计行数
 ```bash

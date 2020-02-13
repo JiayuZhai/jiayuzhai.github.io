@@ -36,6 +36,7 @@ hadoop fs -rm -r /path/of/hdfs/dir
 ```bash
 du -sh #检查文件大小
 df -h #检查磁盘大小和占用情况
+free -h #检查内存情况
 ls -ltr #按时间倒序
 ps -ef #全部进程
 ps -ef | grep name #包含关键词的进程
