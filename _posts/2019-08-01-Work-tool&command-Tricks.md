@@ -31,6 +31,11 @@ split -l 10000 file.txt #按行数分割，每10K行一个文件
 split -b 500M file.txt #按size分割，每500M一个文件
 ```
 
+字符串批量操作
+```bash
+sed -i "s/abcd/abce/g" *.txt # 将txt文件中的abcd替换为abce
+```
+
 ## Python tricks
 
 遍历目录下全部文件，处理后并重命名
@@ -122,6 +127,18 @@ git pull origin master
 解决冲突
 ```bash
 git mergetool
+```
+
+查看当前change
+```bash
+git diff
+git diff [branch] #查看当前change与branch之间的diff
+git diff [branch1] [branch2] #查看branch1与branch2之间的diff
+```
+
+查看commit的change
+```bash
+git show HEAD~0 #最新一个的diff
 ```
 
 land code流程
