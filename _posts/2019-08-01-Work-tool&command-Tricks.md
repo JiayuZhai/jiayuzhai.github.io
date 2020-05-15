@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Work tool and command tricks
+title: Work tool and command tricks 1.0
 ---
 
 ## Shell tricks
