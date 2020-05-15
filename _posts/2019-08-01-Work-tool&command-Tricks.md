@@ -2,7 +2,7 @@
 layout: post
 title: Work tool and command tricks 1.0
 ---
-
+Shell命令相关，python命令相关，pandas相关，git相关。
 ## Shell tricks
 
 查找

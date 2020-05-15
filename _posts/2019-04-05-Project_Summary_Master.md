@@ -2,6 +2,8 @@
 layout: post
 title: Project Summary of Master's Final Project
 ---
+硕士研究生毕设项目介绍。
+
 ## 人口普查数据合成
 
 ### 背景

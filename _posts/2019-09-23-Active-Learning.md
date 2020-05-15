@@ -2,6 +2,7 @@
 layout: post
 title: Active Learning Brief Introduction
 ---
+Active Learn introduction.
 
 ## Why?
 

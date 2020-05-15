@@ -2,6 +2,8 @@
 layout: post
 title: Project Summary of Bachelor's Final Project
 ---
+学士本科毕设项目介绍。
+
 ## 社交网络社团发现算法
 
 ### 背景

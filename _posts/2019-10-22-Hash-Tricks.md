@@ -2,7 +2,7 @@
 layout: post
 title: Hash Tricks
 ---
-Hash tricks for python and java
+Hash tricks for python and java.
 
 ## MD5 in python and java
 

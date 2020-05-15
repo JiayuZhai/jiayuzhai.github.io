@@ -2,6 +2,7 @@
 layout: post
 title: Excel Tricks
 ---
+Excel Tricks.
 
 ## Convert long Column to Date Column
 ```python
