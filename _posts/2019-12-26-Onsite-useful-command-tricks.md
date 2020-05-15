@@ -3,6 +3,8 @@ layout: post
 title: Work tool and command tricks 2.0
 ---
 
+Docker相关命令，HDFS相关命令，系统相关命令，互斥锁脚本，cron相关命令
+
 ## Docker
 
 进入容器的bash

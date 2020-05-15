@@ -2,6 +2,7 @@
 layout: post
 title: Dataframe Operators
 ---
+Dateframe operators for both pd.dataframe and pyspark.dataframe
 
 ## Dataframe operator cheat sheet for pd.dataframe and pyspark.dataframe
 
