@@ -15,7 +15,7 @@ I got the Master of Science (MSc) Degree in Computer Science at [School of Infor
 
 <img src="https://www.ed.ac.uk/sites/all/themes/uoe/assets/logo.png" width="200"/>
 
-I got the Bachelor of Science (MSc) Degree in Internet of Things Engineering at [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/) in November 2018.
+I got the Bachelor of Science (BSc) Degree in Internet of Things Engineering at [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/) in November 2018.
 
 ### Interests
 My Interesting Area in Computer Science is Natural Language Processing, Neural Machine Translation, Machine Learning Application, and Internet of Things Application.
