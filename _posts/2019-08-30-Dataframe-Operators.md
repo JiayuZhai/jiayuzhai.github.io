@@ -20,21 +20,21 @@ df.sort(desc(col))
 ### tocsv
 pd.dataframe
 ```python
-df.to_csv()
+df.to_csv(file_name)
 ```
 pyspark.dataframe
 ```python
-df.repartition(1).write.csv()
+df.repartition(1).write.mode('overwrite').option("header","true").csv(file_name)
 ```
 
 ### tojson  
 pd.dataframe
 ```python
-df.to_json()
+df.to_json(file_name,orient='records',lines=True)
 ```
 pyspark.dataframe
 ```python
-df.repartition(1).write.json()
+df.repartition(1).write.mode('overwrite').option("header","true").json(file_name)
 ```
 
 ### column_rename
@@ -178,7 +178,7 @@ df1.select("sentence").subtract(df2.select("sentence")).distinct()
 ### set ops-intersect
 pyspark.dataframe
 ```python
-df1.select("sentence").intersect(df2.select("sentence"))
+df1.select("sentence").intersect(df2.select("sentence")).distinct()
 ```
 
 
@@ -209,6 +209,7 @@ pyspark.dataframe
 ```python
 spark.sql('SELECT datediff(all.timestamp2,all.timestamp1)*24*60*60 + (hour(all.timestamp2)- hour(all.timestamp1))*60*60 + (minute(all.timestamp2) - minute(all.timestamp1))*60 + (second(all.timestamp2) - second(all.timestamp1)) as tol_time_diff from df')
 ```
+
 ### groupby+sum(str)
 pd.dataframe
 ```python
@@ -218,3 +219,10 @@ def test_sum(series):
 	return ';'.join(new_l)
 target = x.groupby('uid').agg({'str':test_sum})
 ```
+
+### column to list
+pd.dataframe
+```python
+df['col'].tolist()
+```
+
