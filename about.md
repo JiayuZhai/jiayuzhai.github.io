@@ -6,7 +6,7 @@ permalink: /about/
 This is **Wilbur Zhai** github blog. The name **翟佳羽 (ZHAI JIAYU)** in Chinese is useful in some cases.
 
 ### Work
-I joined [DataVisor China](https://www.datavisor.com/) in April 2019 as an algorithm engineer.
+I joined [DataVisor China](https://www.datavisor.com/) from April 2019 to May 2026 as an algorithm engineer.
 
 <img src="https://www.datavisor.com/wp-content/themes/datavisor-1/assets/images/dv-logo-sm.png" width="200"/>
 
